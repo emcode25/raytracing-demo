@@ -1,0 +1,2 @@
+include_directories(${raytracing-demo_SOURCE_DIR}/include)
+add_executable(raytracing-demo "main.cpp" "Vec3.cpp" "Interval.cpp" "Color.cpp" "Camera.cpp" "Hittable.cpp" "Ray.cpp" "HittableList.cpp" "Sphere.cpp")
